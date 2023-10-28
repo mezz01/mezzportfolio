@@ -4,12 +4,12 @@ export default function Header(params) {
     return(
         <div>
             <ul>
-                <Link>Amine Mezzat</Link>
+                <Link href='/'>Amine Mezzat</Link>
             </ul>
             <ul>
-                <Link>Contact</Link>
-                <Link>Work</Link>
-                <Link>About</Link>
+                <Link href='/contact'>Contact</Link>
+                <Link href='/work'>Work</Link>
+                <Link href='/about'>About</Link>
             </ul>
         </div>
     )
