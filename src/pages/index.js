@@ -3,6 +3,7 @@ import { Inter, Sree_Krushnadevaraya } from 'next/font/google'
 import Header from '../../components/header'
 import Head from 'next/head'
 import tailwindConfig from '../../tailwind.config'
+import contactButton from '../../components/contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,8 +12,10 @@ export default function Home() {
     <main>
         <title>Mohamed Amine Mezzat</title>
         <meta name="keywords" content="amine, amine mezzat, web developer maroc, mezzat01, mezz01, nextjs developer maroc"/>
-        <Header></Header>
         <h1>Web Developer</h1>
+        <Header></Header>
+        <div>I am a web developer with an eye on design, we can work together to create a better user experience overall on your project, don't hesitate to contact me or even ask questions I'm open for it all .</div>
+        <contactButton></contactButton>
     </main>
   )
 }
