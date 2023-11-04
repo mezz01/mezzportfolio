@@ -6,6 +6,7 @@ return(
     <main>
         <h1> I am the contact page </h1>
         <Header></Header>
+        
     </main>
 ) 
 }
