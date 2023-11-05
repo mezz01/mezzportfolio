@@ -17,6 +17,7 @@ export default function Home() {
         <button className='h-10 bg-green'>Contact me</button>
         <Image src='./public/next.svg' width={500} height={500}></Image>
         <h1>amine</h1>
+        <p>hasan</p>
 
     </main>
   )
