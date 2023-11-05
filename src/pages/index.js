@@ -15,8 +15,8 @@ export default function Home() {
         <Header></Header>
         <div>I am a web developer with an eye on design, we can work together to create a better user experience overall on your project, don't hesitate to contact me or even ask questions I'm open for it all .</div>
         <button className='h-10 bg-green'>Contact me</button>
-        <Image src="public/vercel.svg"></Image>
-        
+        <Image src='./public/next.svg' width={500} height={500}></Image>
+
     </main>
   )
 }
