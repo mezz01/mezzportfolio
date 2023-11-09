@@ -13,12 +13,12 @@ export default function Home() {
         <meta name="keywords" content="amine, amine mezzat, web developer maroc, mezzat01, mezz01, nextjs developer maroc"/>
         <h1>Web Developer</h1>
         <Header></Header>
+        <i class="fi fi-ts-at"> </i>
         <div>I am a web developer with an eye on design, we can work together to create a better user experience overall on your project, don't hesitate to contact me or even ask questions I'm open for it all .</div>
         <button className='h-10 bg-green'>Contact me</button>
         <Image src='./public/next.svg' width={500} height={500}></Image>
         <h1>amine</h1>
         <p>hasan</p>
-
     </main>
   )
 }
