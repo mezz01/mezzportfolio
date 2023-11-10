@@ -3,6 +3,7 @@ import { Inter, Sree_Krushnadevaraya } from 'next/font/google'
 import Header from '../../components/header'
 import Head from 'next/head'
 import tailwindConfig from '../../tailwind.config'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,9 +21,9 @@ export default function Home() {
         <h1>amine</h1>
         <p>hasan</p>
         <form>
-          <h1>So here i am </h1>
-          <p>the thing is i dnt know who the fuck i am either</p>
-          <h6>so today we re trying to be better</h6>
+          <Link>link1</Link>
+          <Link>link1</Link>
+          <Link>link1</Link>
           <button>hello bn3mi</button>
         </form>
     </main>
