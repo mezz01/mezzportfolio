@@ -19,6 +19,12 @@ export default function Home() {
         <Image src='./public/next.svg' width={500} height={500}></Image>
         <h1>amine</h1>
         <p>hasan</p>
+        <form>
+          <h1>So here i am </h1>
+          <p>the thing is i dnt know who the fuck i am either</p>
+          <h6>so today we re trying to be better</h6>
+          <button>hello bn3mi</button>
+        </form>
     </main>
   )
 }
