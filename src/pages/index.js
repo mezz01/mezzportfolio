@@ -18,14 +18,6 @@ export default function Home() {
         <div>I am a web developer with an eye on design, we can work together to create a better user experience overall on your project, don't hesitate to contact me or even ask questions I'm open for it all .</div>
         <button className='h-10 bg-green'>Contact me</button>
         <Image src='./public/next.svg' width={500} height={500}></Image>
-        <h1>amine</h1>
-        <p>hasan</p>
-        <form>
-          <Link>link1</Link>
-          <Link>link1</Link>
-          <Link>link1</Link>
-          <button>hello bn3mi</button>
-        </form>
     </main>
   )
 }
